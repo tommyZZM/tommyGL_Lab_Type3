@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WorkSpace">
+      <UniqueIdentifier>{2d8ecda1-7e1a-4598-ba71-ab8792feb924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WorkSpace\Core">
+      <UniqueIdentifier>{e40809f5-bcd8-4529-bc09-abd8c5821c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\Core\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="WorkSpace\Core\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode">
+      <UniqueIdentifier>{5b0a71f8-4d5b-41b3-a0fd-95cfa216c588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\MainFrame">
+      <UniqueIdentifier>{4f7c92d0-dfc2-4d98-bfce-db08db2372e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\Render">
+      <UniqueIdentifier>{a2c3ac2c-c7cd-4f24-a9a2-98fedf4cd43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\Render\OpenGL">
+      <UniqueIdentifier>{709fc21a-fd2b-4c01-a065-0488aceb8d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\Render\Direct3D">
+      <UniqueIdentifier>{35308fb2-02d2-49d8-abdc-8a9071a296eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\MainFrame\app">
+      <UniqueIdentifier>{524ccd6a-5388-47ad-850a-fde4a15860c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkSpace\CoreCode\MainFrame\msg">
+      <UniqueIdentifier>{5fdee37e-561b-4bee-b7c4-02d718ea12b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WorkSpace\stdafx.h">
+      <Filter>WorkSpace\Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\targetver.h">
+      <Filter>WorkSpace\Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\Win32Core.h">
+      <Filter>WorkSpace\Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\CoreCode\MainFrame\LabMF.h">
+      <Filter>WorkSpace\CoreCode\MainFrame\app</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\Resource.h">
+      <Filter>WorkSpace\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\CoreCode\MainFrame\Render\OpenGL\RenderGL.h">
+      <Filter>WorkSpace\CoreCode\Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\CoreCode\MainFrame\Render\Direct3D\RenderD3D.h">
+      <Filter>WorkSpace\CoreCode\Render\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\CoreCode\MainFrame\LabMsg.h">
+      <Filter>WorkSpace\CoreCode\MainFrame\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace\CoreCode\MainFrame\MsgList.h">
+      <Filter>WorkSpace\CoreCode\MainFrame\msg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\LabView.cpp">
+      <Filter>WorkSpace\CoreCode\MainFrame\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\LabInteract.cpp">
+      <Filter>WorkSpace\CoreCode\MainFrame\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\stdafx.cpp">
+      <Filter>WorkSpace\Core\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\Win32Core.cpp">
+      <Filter>WorkSpace\Core\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\Render\OpenGL\RenderGL.cpp">
+      <Filter>WorkSpace\CoreCode\Render\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\Render\Direct3D\RenderD3D.cpp">
+      <Filter>WorkSpace\CoreCode\Render\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\MsgList.cpp">
+      <Filter>WorkSpace\CoreCode\MainFrame\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\LabWnd.cpp">
+      <Filter>WorkSpace\CoreCode\MainFrame\app</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace\CoreCode\MainFrame\LabApp.cpp">
+      <Filter>WorkSpace\CoreCode\MainFrame\app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WorkSpace\tommyGL_Lab_Win32.rc">
+      <Filter>WorkSpace\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
